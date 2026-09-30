@@ -1,0 +1,91 @@
+﻿ticket_id,asset_id,opened_date,closed_date,issue_type,priority,updated_at,is_synthetic,_source_row_id,_source_system,_extract_at
+SYN-TK-0062,SYN-AS-0222,2026-04-05,2026-04-08,Sensor reading issue,High,2026-04-08T12:00:00Z,true,service_tickets:00062,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0063,SYN-AS-0224,2026-04-05,,Training request,Medium,2026-04-08T12:00:00Z,true,service_tickets:00063,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0030,SYN-AS-0120,2026-05-14,2026-05-17,Setup assistance,Low,2026-05-17T12:00:00Z,true,service_tickets:00030,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0051,SYN-AS-0174,2026-02-25,,Software configuration,Medium,2026-02-28T12:00:00Z,true,service_tickets:00051,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0058,SYN-AS-0197,2026-06-06,N/A,Software configuration,Medium,2026-06-09T12:00:00Z,true,service_tickets:00058,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0054,SYN-AS-0186,2026-08-04,N/A,Sensor reading issue,Medium,2026-08-07T12:00:00Z,true,service_tickets:00054,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0018,SYN-AS-0048,2026-03-29,2026-04-01,Software configuration,Low,2026-04-01T12:00:00Z,true,service_tickets:00018,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0041,SYN-AS-0149,2026-07-14,,Training request,Low,2026-07-17T12:00:00Z,true,service_tickets:00041,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0011,SYN-AS-0034,2026-08-27,2026-08-30,Sensor reading issue,High,2026-08-30T12:00:00Z,true,service_tickets:00011,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0060,SYN-AS-0202,2026-06-06,2026-06-09,Training request,Low,2026-06-09T12:00:00Z,true,service_tickets:00060,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0071,SYN-AS-0247,2026-08-07,2026-08-10,Software configuration,Medium,2026-08-10T12:00:00Z,true,service_tickets:00071,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0066,SYN-AS-0232,2026-09-19,2026-09-22,Training request,Medium,2026-09-22T12:00:00Z,YES,service_tickets:00066,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0017,SYN-AS-0046,2026-03-29,2026-04-01,Training request,Medium,2026-04-01T12:00:00Z,true,service_tickets:00017,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0057,SYN-AS-0193,29/03/2026,,Sensor reading issue,Low,2026-04-01T12:00:00Z,true,service_tickets:00057,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0063,SYN-AS-0224,2026-04-05,,Training request,Medium,2026-04-08T12:00:00Z,true,service_tickets:DUP:00062,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0001,SYN-AS-0006,2026-06-11,2026-06-14,Software configuration,High,2026-06-14T12:00:00Z,true,service_tickets:DUP:00000,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0086,SYN-AS-0317,2026-09-04,N/A,Sensor reading issue,High,2026-09-07T12:00:00Z,true,service_tickets:00086,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0029,SYN-AS-0110,2026-02-28,2026-03-03,Setup assistance,Medium,2026-03-03T12:00:00Z,true,service_tickets:00029,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0082,SYN-AS-0291,2026-07-18,2026-07-21,Software configuration,Medium,2026-07-21T12:00:00Z,true,service_tickets:00082,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0040,SYN-AS-0146,2026-05-07,2026-05-10,Training request,Low,2026-05-10T12:00:00Z,true,service_tickets:00040,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0035,SYN-AS-0136,18/05/2026,2026-05-21,Setup assistance,Low,2026-05-21T12:00:00Z,true,service_tickets:00035,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0083,SYN-AS-0292,2026-07-18,2026-07-21,Training request,Low,2026-07-21T12:00:00Z,true,service_tickets:00083,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0009,SYN-AS-0028,2026-09-16,2026-09-19,Setup assistance,High,2026-09-19T12:00:00Z,YES,service_tickets:00009,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0015,SYN-AS-0041,2026-02-23,2026-02-26,Training request,Medium,2026-02-26T12:00:00Z,true,service_tickets:00015,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0001,SYN-AS-0006,2026-06-11,2026-06-14,Software configuration,High,2026-06-14T12:00:00Z,true,service_tickets:00001,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0006,SYN-AS-0021,2026-08-08,2026-08-11,Software configuration,Medium,2026-08-11T12:00:00Z,true,service_tickets:00006,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0047,SYN-AS-0160,2026-05-23,2026-05-26,Software configuration,High,2026-05-26T12:00:00Z,YES,service_tickets:00047,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0087,SYN-AS-0322,2026-04-22,,Software configuration,High,2026-04-25T12:00:00Z,true,service_tickets:00087,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0014,SYN-AS-0038,2026-02-23,N/A,Software configuration,Low,2026-02-26T12:00:00Z,true,service_tickets:00014,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0067,SYN-AS-0235,2026-09-19,2026-09-22,Software configuration,High,2026-09-22T12:00:00Z,true,service_tickets:00067,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0084,SYN-AS-0305,2026-09-18,2026-09-21,Setup assistance,Medium,2026-09-21T12:00:00Z,true,service_tickets:00084,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0008,SYN-AS-0027,2026-09-16,2026-09-19,Setup assistance,Medium,2026-09-19T12:00:00Z,true,service_tickets:00008,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0065,SYN-AS-0226,2026-04-05,2026-04-08,Sensor reading issue,Medium,2026-04-08T12:00:00Z,true,service_tickets:00065,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0022,SYN-AS-0075,2026-08-31,2026-09-03,Software configuration,Low,2026-09-03T12:00:00Z,true,service_tickets:00022,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0036,SYN-AS-0141,2026-05-07,N/A,Sensor reading issue,Medium,2026-05-10T12:00:00Z,true,service_tickets:00036,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0079,SYN-AS-0272,20/02/2026,2026-02-23,Setup assistance,Medium,2026-02-23T12:00:00Z,true,service_tickets:00079,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0074,SYN-AS-0252,2026-06-17,N/A,Training request,High,2026-06-20T12:00:00Z,true,service_tickets:00074,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0078,SYN-AS-0263,2026-07-12,2026-07-15,Setup assistance,Medium,2026-07-15T12:00:00Z,true,service_tickets:00078,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0038,SYN-AS-0143,07-May-2026,2026-05-10,Training request,Medium,2026-05-10T12:00:00Z,true,service_tickets:00038,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0048,SYN-AS-0163,2026-09-06,2026-09-09,Training request,Low,2026-09-09T12:00:00Z,true,service_tickets:00048,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0034,SYN-AS-0130,2026-09-12,N/A,Setup assistance,Low,2026-09-15T12:00:00Z,true,service_tickets:00034,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0042,SYN-AS-0150,2026-07-14,2026-07-17,Training request,Low,2026-07-17T12:00:00Z,true,service_tickets:00042,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0044,SYN-AS-0153,2026-07-14,N/A,Software configuration,Medium,2026-07-17T12:00:00Z,true,service_tickets:00044,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0028,SYN-AS-0109,2026-02-28,2026-03-03,Software configuration,Medium,2026-03-03T12:00:00Z,YES,service_tickets:00028,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0043,SYN-AS-0152,2026-07-14,2026-07-17,Setup assistance,High,2026-07-17T12:00:00Z,true,service_tickets:00043,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0061,SYN-AS-0206,2026-05-13,,Training request,Low,2026-05-16T12:00:00Z,true,service_tickets:00061,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0002,SYN-AS-0007,15/06/2026,2026-06-18,Training request,Medium,2026-06-18T12:00:00Z,true,service_tickets:00002,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0085,SYN-AS-0314,2026-09-04,,Sensor reading issue,Low,2026-09-07T12:00:00Z,YES,service_tickets:00085,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0076,SYN-AS-0259,2026-07-25,2026-07-28,Software configuration,High,2026-07-28T12:00:00Z,true,service_tickets:00076,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0073,SYN-AS-0250,2026-06-17,2026-06-20,Software configuration,Medium,2026-06-20T12:00:00Z,true,service_tickets:00073,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0020,SYN-AS-0053,2026-04-20,N/A,Training request,Low,2026-04-23T12:00:00Z,true,service_tickets:00020,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0077,SYN-AS-0260,2026-07-25,2026-07-28,Setup assistance,Medium,2026-07-28T12:00:00Z,true,service_tickets:00077,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0064,SYN-AS-0225,2026-04-05,N/A,Software configuration,Medium,2026-04-08T12:00:00Z,true,service_tickets:00064,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0053,SYN-AS-0185,2026-08-04,,Training request,Medium,2026-08-07T12:00:00Z,true,service_tickets:00053,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0049,SYN-AS-0170,2026-04-08,2026-04-11,Sensor reading issue,Low,2026-04-11T12:00:00Z,true,service_tickets:00049,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0045,SYN-AS-0156,2026-05-23,,Training request,Medium,2026-05-26T12:00:00Z,true,service_tickets:00045,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0004,SYN-AS-0018,08-Aug-2026,2026-08-11,Setup assistance,Medium,2026-08-11T12:00:00Z,true,service_tickets:00004,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0075,SYN-AS-0254,2026-04-06,2026-04-09,Sensor reading issue,Medium,2026-04-09T12:00:00Z,true,service_tickets:00075,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0080,SYN-AS-0277,2026-07-31,2026-08-03,Sensor reading issue,High,2026-08-03T12:00:00Z,true,service_tickets:00080,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0019,SYN-AS-0049,2026-03-29,2026-04-01,Training request,Medium,2026-04-01T12:00:00Z,true,service_tickets:00019,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0081,SYN-AS-0280,2026-07-31,2026-08-03,Sensor reading issue,Low,2026-08-03T12:00:00Z,true,service_tickets:00081,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0013,SYN-AS-0037,27/08/2026,2026-08-30,Training request,Medium,2026-08-30T12:00:00Z,true,service_tickets:00013,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0055,SYN-AS-0189,01-Mar-2026,2026-03-04,Software configuration,Medium,2026-03-04T12:00:00Z,true,service_tickets:00055,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0050,SYN-AS-0172,2026-04-20,2026-04-23,Sensor reading issue,Low,2026-04-23T12:00:00Z,true,service_tickets:00050,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0037,SYN-AS-0142,2026-05-07,2026-05-10,Setup assistance,Medium,2026-05-10T12:00:00Z,true,service_tickets:00037,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0027,SYN-AS-0106,2026-08-26,2026-08-29,Software configuration,Low,2026-08-29T12:00:00Z,true,service_tickets:00027,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0026,SYN-AS-0095,2026-07-27,N/A,Sensor reading issue,High,2026-07-30T12:00:00Z,true,service_tickets:00026,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0039,SYN-AS-0145,2026-05-07,2026-05-10,Sensor reading issue,Low,2026-05-10T12:00:00Z,true,service_tickets:00039,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0021,SYN-AS-0071,06-Jul-2026,2026-07-09,Software configuration,Low,2026-07-09T12:00:00Z,true,service_tickets:00021,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0003,SYN-AS-0011,2026-03-16,,Sensor reading issue,Medium,2026-03-19T12:00:00Z,true,service_tickets:00003,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0068,SYN-AS-0238,07/03/2026,N/A,Software configuration,Medium,2026-03-10T12:00:00Z,true,service_tickets:00068,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0070,SYN-AS-0246,2026-08-07,2026-08-10,Software configuration,High,2026-08-10T12:00:00Z,true,service_tickets:00070,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0072,SYN-AS-0249,17-Jun-2026,2026-06-20,Software configuration,Low,2026-06-20T12:00:00Z,true,service_tickets:00072,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0059,SYN-AS-0198,2026-06-06,2026-06-09,Software configuration,Low,2026-06-09T12:00:00Z,true,service_tickets:00059,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0005,SYN-AS-0020,2026-08-08,2026-08-11,Software configuration,Low,2026-08-11T12:00:00Z,true,service_tickets:00005,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0023,SYN-AS-0085,2026-06-12,2026-06-15,Setup assistance,High,2026-06-15T12:00:00Z,true,service_tickets:00023,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0069,SYN-AS-0243,2026-05-22,2026-05-25,Setup assistance,Low,2026-05-25T12:00:00Z,true,service_tickets:00069,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0010,SYN-AS-0033,2026-04-25,2026-04-28,Training request,Low,2026-04-28T12:00:00Z,true,service_tickets:00010,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0056,SYN-AS-0192,2026-03-01,2026-03-04,Setup assistance,Low,2026-03-04T12:00:00Z,true,service_tickets:00056,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0024,SYN-AS-0091,23/05/2026,2026-05-26,Software configuration,Low,2026-05-26T12:00:00Z,true,service_tickets:00024,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0007,SYN-AS-0024,2026-09-16,,Training request,High,2026-09-19T12:00:00Z,true,service_tickets:00007,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0031,SYN-AS-0126,2026-02-26,,Training request,Low,2026-03-01T12:00:00Z,true,service_tickets:00031,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0052,SYN-AS-0183,2026-08-04,2026-08-07,Setup assistance,Low,2026-08-07T12:00:00Z,true,service_tickets:00052,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0016,SYN-AS-0042,2026-02-23,2026-02-26,Setup assistance,High,2026-02-26T12:00:00Z,true,service_tickets:00016,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0033,SYN-AS-0129,2026-09-12,,Training request,Medium,2026-09-15T12:00:00Z,true,service_tickets:00033,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0032,SYN-AS-0128,2026-02-26,2026-03-01,Software configuration,High,2026-03-01T12:00:00Z,true,service_tickets:DUP:00031,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0046,SYN-AS-0159,23/05/2026,2026-05-26,Training request,Medium,2026-05-26T12:00:00Z,true,service_tickets:00046,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0012,SYN-AS-0035,2026-08-27,2026-08-30,Software configuration,Low,2026-08-30T12:00:00Z,true,service_tickets:00012,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0025,SYN-AS-0093,2026-05-23,2026-05-26,Setup assistance,High,2026-05-26T12:00:00Z,true,service_tickets:00025,ServiceLog,2026-09-29T23:00:00Z
+SYN-TK-0032,SYN-AS-0128,2026-02-26,2026-03-01,Software configuration,High,2026-03-01T12:00:00Z,true,service_tickets:00032,ServiceLog,2026-09-29T23:00:00Z

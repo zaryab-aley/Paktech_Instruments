@@ -1,0 +1,17 @@
+﻿employee_id,display_name,branch_id,role,active,is_synthetic,_source_row_id,_source_system,_extract_at
+SYN-EM-0006,Hira Khan,SYN-BR-0001,Procurement officer,true,true,employees:00006,Operations,2026-09-29T23:00:00Z
+SYN-EM-0001,Aamir Shah,SYN-BR-0001,Service engineer,true,true,employees:DUP:00000,Operations,2026-09-29T23:00:00Z
+SYN-EM-0014,Imran Akhtar,SYN-BR-0004,Procurement officer,true,true,employees:00014,Operations,2026-09-29T23:00:00Z
+SYN-EM-0009,Maha Siddiqui,SYN-BR-0004,Finance officer,true,YES,employees:00009,Operations,2026-09-29T23:00:00Z
+SYN-EM-0012,Usman Tariq,SYN-BR-0002,Sales coordinator,true,true,employees:00012,Operations,2026-09-29T23:00:00Z
+SYN-EM-0005,Fahad Ali,SYN-BR-0005,Service engineer,true,true,employees:00005,Operations,2026-09-29T23:00:00Z
+SYN-EM-0011,Rabia Saleem,SYN-BR-0001,Procurement officer,true,true,employees:00011,Operations,2026-09-29T23:00:00Z
+SYN-EM-0003,  Umar Malik  ,SYN-BR-0003,Sales coordinator,true,true,employees:00003,Operations,2026-09-29T23:00:00Z
+SYN-EM-0015,Saad Javed,SYN-BR-0005,Procurement officer,true,true,employees:00015,Operations,2026-09-29T23:00:00Z
+SYN-EM-0001,Aamir Shah,SYN-BR-0001,Service engineer,true,true,employees:00001,Operations,2026-09-29T23:00:00Z
+SYN-EM-0004,Sana Iqbal,SYN-BR-0004,Sales coordinator,true,true,employees:00004,Operations,2026-09-29T23:00:00Z
+SYN-EM-0007,Asad Qureshi,SYN-BR-0002,Finance officer,true,true,employees:00007,Operations,2026-09-29T23:00:00Z
+SYN-EM-0010,Faraz Hassan,SYN-BR-0005,Procurement officer,true,true,employees:00010,Operations,2026-09-29T23:00:00Z
+SYN-EM-0002,Nadia Raza,SYN-BR-0002,Procurement officer,true,true,employees:00002,Operations,2026-09-29T23:00:00Z
+SYN-EM-0013,Areeba Noor,SYN-BR-0003,Sales coordinator,true,true,employees:00013,Operations,2026-09-29T23:00:00Z
+SYN-EM-0008,Zain Ahmed,SYN-BR-0003,Sales coordinator,true,true,employees:00008,Operations,2026-09-29T23:00:00Z

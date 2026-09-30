@@ -1,0 +1,84 @@
+﻿invoice_id,order_id,invoice_date,due_date,net_amount_pkr,tax_amount_pkr,gross_amount_pkr,tax_basis,updated_at,is_synthetic,_source_row_id,_source_system,_extract_at
+SYN-IV-0004,SYN-SO-0004,19-Aug-2026,2026-10-03,2284200,0,2284200,Excluded from synthetic model; not tax advice,2026-08-19T12:00:00Z,true,invoices:00004,Finance,2026-09-29T23:00:00Z
+SYN-IV-0016,SYN-SO-0016,2026-09-10,2026-12-09,5807025,0,5807025,Excluded from synthetic model; not tax advice,2026-09-10T12:00:00Z,true,invoices:00016,Finance,2026-09-29T23:00:00Z
+SYN-IV-0026,SYN-SO-0026,2026-02-18,31/02/2026,30334500,0,30334500,Excluded from synthetic model; not tax advice,2026-02-18T12:00:00Z,true,invoices:00026,Finance,2026-09-29T23:00:00Z
+SYN-IV-0021,SYN-SO-0021,02-Jun-2026,2026-07-17,13308300,0,13308300,Excluded from synthetic model; not tax advice,2026-06-02T12:00:00Z,true,invoices:00021,Finance,2026-09-29T23:00:00Z
+SYN-IV-0007,SYN-SO-0007,2026-04-15,2026-06-14,18621900,0,18621900,Excluded from synthetic model; not tax advice,2026-04-15T12:00:00Z,true,invoices:00007,Finance,2026-09-29T23:00:00Z
+SYN-IV-0005,SYN-SO-0005,2026-07-29,2026-09-27,30882600,0,30882600,Excluded from synthetic model; not tax advice,2026-07-29T12:00:00Z,true,invoices:00005,Finance,2026-09-29T23:00:00Z
+SYN-IV-0070,SYN-SO-0070,2026-07-08,2026-10-06,19427850,0,19427850,Excluded from synthetic model; not tax advice,2026-07-08T12:00:00Z,true,invoices:00070,Finance,2026-09-29T23:00:00Z
+SYN-IV-0063,SYN-SO-0063,2026-03-08,2026-05-07,19745100,0,19745100,Excluded from synthetic model; not tax advice,2026-03-08T12:00:00Z,true,invoices:DUP:00062,Finance,2026-09-29T23:00:00Z
+SYN-IV-0044,SYN-SO-0044,2026-02-19,2026-04-05,21570300,0,21570300,Excluded from synthetic model; not tax advice,2026-02-19T12:00:00Z,true,invoices:00044,Finance,2026-09-29T23:00:00Z
+SYN-IV-0012,SYN-SO-0012,2026-04-13,2026-05-28,3693600,0,3693600,Excluded from synthetic model; not tax advice,2026-04-13T12:00:00Z,true,invoices:00012,Finance,2026-09-29T23:00:00Z
+SYN-IV-0017,SYN-SO-0017,2026-06-26,2026-07-26,14269500,0,14269500,Excluded from synthetic model; not tax advice,2026-06-26T12:00:00Z,true,invoices:00017,Finance,2026-09-29T23:00:00Z
+SYN-IV-0065,SYN-SO-0065,2026-02-10,2026-04-11,11718000,0,11718000,Excluded from synthetic model; not tax advice,2026-02-10T12:00:00Z,true,invoices:00065,Finance,2026-09-29T23:00:00Z
+SYN-IV-0013,SYN-SO-0013,25/02/2026,2026-04-26,9185400,0,9185400,Excluded from synthetic model; not tax advice,2026-02-25T12:00:00Z,true,invoices:00013,Finance,2026-09-29T23:00:00Z
+SYN-IV-0041,SYN-SO-0041,2026-02-15,2026-04-01,13868550,0,13868550,Excluded from synthetic model; not tax advice,2026-02-15T12:00:00Z,true,invoices:00041,Finance,2026-09-29T23:00:00Z
+SYN-IV-0030,SYN-SO-0030,2026-02-16,2026-03-18,"PKR 11,724,750.00",0,11724750,Excluded from synthetic model; not tax advice,2026-02-16T12:00:00Z,true,invoices:00030,Finance,2026-09-29T23:00:00Z
+SYN-IV-0048,SYN-SO-0048,2026-05-09,2026-06-23,26189325,0,26189325,Excluded from synthetic model; not tax advice,2026-05-09T12:00:00Z,true,invoices:00048,Finance,2026-09-29T23:00:00Z
+SYN-IV-0001,SYN-SO-0001,2026-06-01,2026-07-01,29389500,0,29389500,Excluded from synthetic model; not tax advice,2026-06-01T12:00:00Z,true,invoices:00001,Finance,2026-09-29T23:00:00Z
+SYN-IV-0055,SYN-SO-0055,13-Aug-2026,2026-10-12,11299500,0,11299500,Excluded from synthetic model; not tax advice,2026-08-13T12:00:00Z,true,invoices:00055,Finance,2026-09-29T23:00:00Z
+SYN-IV-0078,SYN-SO-0078,2026-05-26,2026-07-10,"PKR 14,908,050.00",0,14908050,Excluded from synthetic model; not tax advice,2026-05-26T12:00:00Z,true,invoices:00078,Finance,2026-09-29T23:00:00Z
+SYN-IV-0042,SYN-SO-0042,2026-06-08,2026-07-23,"PKR 23,098,500.00",0,23098500,Excluded from synthetic model; not tax advice,2026-06-08T12:00:00Z,true,invoices:00042,Finance,2026-09-29T23:00:00Z
+SYN-IV-0027,SYN-SO-0027,2026-04-26,2026-07-25,21242250,0,21242250,Excluded from synthetic model; not tax advice,2026-04-26T12:00:00Z,true,invoices:00027,Finance,2026-09-29T23:00:00Z
+SYN-IV-0049,SYN-SO-0049,2026-06-22,2026-08-21,6277500,0,6277500,Excluded from synthetic model; not tax advice,2026-06-22T12:00:00Z,true,invoices:00049,Finance,2026-09-29T23:00:00Z
+SYN-IV-0072,SYN-SO-0072,05-May-2026,2026-06-04,4919400,0,4919400,Excluded from synthetic model; not tax advice,2026-05-05T12:00:00Z,true,invoices:00072,Finance,2026-09-29T23:00:00Z
+SYN-IV-0038,SYN-SO-0038,27-Aug-2026,2026-09-26,33127650,0,33127650,Excluded from synthetic model; not tax advice,2026-08-27T12:00:00Z,true,invoices:00038,Finance,2026-09-29T23:00:00Z
+SYN-IV-0028,SYN-SO-0028,2026-09-05,2026-11-04,6277500,0,6277500,Excluded from synthetic model; not tax advice,2026-09-05T12:00:00Z,YES,invoices:00028,Finance,2026-09-29T23:00:00Z
+SYN-IV-0077,SYN-SO-0077,2026-04-12,2026-07-11,15795000,0,15795000,Excluded from synthetic model; not tax advice,2026-04-12T12:00:00Z,true,invoices:00077,Finance,2026-09-29T23:00:00Z
+SYN-IV-0032,SYN-SO-0032,2026-05-08,2026-07-07,29390175,0,29390175,Excluded from synthetic model; not tax advice,2026-05-08T12:00:00Z,true,invoices:DUP:00031,Finance,2026-09-29T23:00:00Z
+SYN-IV-0067,SYN-SO-0067,2026-07-21,2026-10-19,11653875,0,11653875,Excluded from synthetic model; not tax advice,2026-07-21T12:00:00Z,true,invoices:00067,Finance,2026-09-29T23:00:00Z
+SYN-IV-0076,SYN-SO-0076,2026-08-25,2026-09-24,20530800,0,20530800,Excluded from synthetic model; not tax advice,2026-08-25T12:00:00Z,true,invoices:00076,Finance,2026-09-29T23:00:00Z
+SYN-IV-0074,SYN-SO-0074,2026-09-08,2026-12-07,31325400,0,31325400,Excluded from synthetic model; not tax advice,2026-09-08T12:00:00Z,true,invoices:00074,Finance,2026-09-29T23:00:00Z
+SYN-IV-0079,SYN-SO-0079,09/09/2026,2026-11-08,17178750,0,17178750,Excluded from synthetic model; not tax advice,2026-09-09T12:00:00Z,true,invoices:00079,Finance,2026-09-29T23:00:00Z
+SYN-IV-0040,SYN-SO-0040,2026-04-10,2026-06-09,10223550,0,10223550,Excluded from synthetic model; not tax advice,2026-04-10T12:00:00Z,true,invoices:00040,Finance,2026-09-29T23:00:00Z
+SYN-IV-0037,SYN-SO-0037,2026-08-24,2026-11-22,12594150,0,12594150,Excluded from synthetic model; not tax advice,2026-08-24T12:00:00Z,true,invoices:00037,Finance,2026-09-29T23:00:00Z
+SYN-IV-0033,SYN-SO-0033,2026-04-27,2026-07-26,21602025,0,21602025,Excluded from synthetic model; not tax advice,2026-04-27T12:00:00Z,true,invoices:00033,Finance,2026-09-29T23:00:00Z
+SYN-IV-0019,SYN-SO-0019,2026-05-06,2026-06-20,11612700,0,11612700,Excluded from synthetic model; not tax advice,2026-05-06T12:00:00Z,true,invoices:00019,Finance,2026-09-29T23:00:00Z
+SYN-IV-0066,SYN-SO-0066,2026-07-21,2026-09-04,"PKR 15,218,550.00",0,15218550,Excluded from synthetic model; not tax advice,2026-07-21T12:00:00Z,YES,invoices:00066,Finance,2026-09-29T23:00:00Z
+SYN-IV-0069,SYN-SO-0069,2026-05-15,2026-08-13,17787600,0,17787600,Excluded from synthetic model; not tax advice,2026-05-15T12:00:00Z,true,invoices:00069,Finance,2026-09-29T23:00:00Z
+SYN-IV-0064,SYN-SO-0064,2026-06-07,2026-09-05,11610000,0,11610000,Excluded from synthetic model; not tax advice,2026-06-07T12:00:00Z,true,invoices:00064,Finance,2026-09-29T23:00:00Z
+SYN-IV-0050,SYN-SO-0050,2026-05-11,2026-06-25,7361550,0,7361550,Excluded from synthetic model; not tax advice,2026-05-11T12:00:00Z,true,invoices:00050,Finance,2026-09-29T23:00:00Z
+SYN-IV-0056,SYN-SO-0056,2026-05-12,2026-07-11,17736975,0,17736975,Excluded from synthetic model; not tax advice,2026-05-12T12:00:00Z,true,invoices:00056,Finance,2026-09-29T23:00:00Z
+SYN-IV-0032,SYN-SO-0032,2026-05-08,2026-07-07,29390175,0,29390175,Excluded from synthetic model; not tax advice,2026-05-08T12:00:00Z,true,invoices:00032,Finance,2026-09-29T23:00:00Z
+SYN-IV-0054,SYN-SO-0054,2026-02-25,2026-05-26,"PKR 4,993,650.00",0,4993650,Excluded from synthetic model; not tax advice,2026-02-25T12:00:00Z,true,invoices:00054,Finance,2026-09-29T23:00:00Z
+SYN-IV-0036,SYN-SO-0036,2026-05-13,2026-08-11,20736675,0,20736675,Excluded from synthetic model; not tax advice,2026-05-13T12:00:00Z,true,invoices:00036,Finance,2026-09-29T23:00:00Z
+SYN-IV-0051,SYN-SO-0051,2026-03-26,2026-06-24,25147800,0,25147800,Excluded from synthetic model; not tax advice,2026-03-26T12:00:00Z,true,invoices:00051,Finance,2026-09-29T23:00:00Z
+SYN-IV-0014,SYN-SO-0014,2026-04-17,2026-06-16,6277500,0,6277500,Excluded from synthetic model; not tax advice,2026-04-17T12:00:00Z,true,invoices:00014,Finance,2026-09-29T23:00:00Z
+SYN-IV-0063,SYN-SO-0063,2026-03-08,2026-05-07,19745100,0,19745100,Excluded from synthetic model; not tax advice,2026-03-08T12:00:00Z,true,invoices:00063,Finance,2026-09-29T23:00:00Z
+SYN-IV-0080,SYN-SO-0080,2026-06-05,2026-07-20,5797575,0,5797575,Excluded from synthetic model; not tax advice,2026-06-05T12:00:00Z,true,invoices:00080,Finance,2026-09-29T23:00:00Z
+SYN-IV-0009,SYN-SO-0009,2026-02-13,2026-05-14,37993050,0,37993050,Excluded from synthetic model; not tax advice,2026-02-13T12:00:00Z,YES,invoices:00009,Finance,2026-09-29T23:00:00Z
+SYN-IV-0020,SYN-SO-0020,2026-04-24,2026-07-23,13099725,0,13099725,Excluded from synthetic model; not tax advice,2026-04-24T12:00:00Z,true,invoices:00020,Finance,2026-09-29T23:00:00Z
+SYN-IV-0024,SYN-SO-0024,17/07/2026,2026-08-16,18156150,0,18156150,Excluded from synthetic model; not tax advice,2026-07-17T12:00:00Z,true,invoices:00024,Finance,2026-09-29T23:00:00Z
+SYN-IV-0039,SYN-SO-0039,2026-03-29,2026-05-13,2718900,0,2718900,Excluded from synthetic model; not tax advice,2026-03-29T12:00:00Z,true,invoices:00039,Finance,2026-09-29T23:00:00Z
+SYN-IV-0029,SYN-SO-0029,2026-05-04,2026-06-18,1093500,0,1093500,Excluded from synthetic model; not tax advice,2026-05-04T12:00:00Z,true,invoices:00029,Finance,2026-09-29T23:00:00Z
+SYN-IV-0002,SYN-SO-0002,05/06/2026,2026-07-20,3456000,0,3456000,Excluded from synthetic model; not tax advice,2026-06-05T12:00:00Z,true,invoices:00002,Finance,2026-09-29T23:00:00Z
+SYN-IV-0031,SYN-SO-0031,2026-09-02,2026-12-01,11703150,0,11703150,Excluded from synthetic model; not tax advice,2026-09-02T12:00:00Z,true,invoices:00031,Finance,2026-09-29T23:00:00Z
+SYN-IV-0071,SYN-SO-0071,2026-03-25,2026-05-09,12388950,0,12388950,Excluded from synthetic model; not tax advice,2026-03-25T12:00:00Z,true,invoices:00071,Finance,2026-09-29T23:00:00Z
+SYN-IV-0047,SYN-SO-0047,2026-05-03,2026-06-02,50010075,0,50010075,Excluded from synthetic model; not tax advice,2026-05-03T12:00:00Z,YES,invoices:00047,Finance,2026-09-29T23:00:00Z
+SYN-IV-0059,SYN-SO-0059,2026-03-27,2026-05-26,9849600,0,9849600,Excluded from synthetic model; not tax advice,2026-03-27T12:00:00Z,true,invoices:00059,Finance,2026-09-29T23:00:00Z
+SYN-IV-0073,SYN-SO-0073,2026-04-17,2026-06-01,18891225,0,18891225,Excluded from synthetic model; not tax advice,2026-04-17T12:00:00Z,true,invoices:00073,Finance,2026-09-29T23:00:00Z
+SYN-IV-0043,SYN-SO-0043,2026-07-25,2026-09-23,31393575,0,31393575,Excluded from synthetic model; not tax advice,2026-07-25T12:00:00Z,true,invoices:00043,Finance,2026-09-29T23:00:00Z
+SYN-IV-0015,SYN-SO-0015,2026-03-28,2026-05-27,2648700,0,2648700,Excluded from synthetic model; not tax advice,2026-03-28T12:00:00Z,true,invoices:00015,Finance,2026-09-29T23:00:00Z
+SYN-IV-0062,SYN-SO-0062,2026-07-02,2026-08-01,13635000,0,13635000,Excluded from synthetic model; not tax advice,2026-07-02T12:00:00Z,true,invoices:00062,Finance,2026-09-29T23:00:00Z
+SYN-IV-0061,SYN-SO-0061,2026-07-15,2026-08-29,8370000,0,8370000,Excluded from synthetic model; not tax advice,2026-07-15T12:00:00Z,true,invoices:00061,Finance,2026-09-29T23:00:00Z
+SYN-IV-0003,SYN-SO-0003,2026-03-06,2026-06-04,31630500,0,31630500,Excluded from synthetic model; not tax advice,2026-03-06T12:00:00Z,true,invoices:00003,Finance,2026-09-29T23:00:00Z
+SYN-IV-0052,SYN-SO-0052,2026-04-15,2026-05-15,18544950,0,18544950,Excluded from synthetic model; not tax advice,2026-04-15T12:00:00Z,true,invoices:00052,Finance,2026-09-29T23:00:00Z
+SYN-IV-0045,SYN-SO-0045,2026-03-19,2026-05-18,7873200,0,7873200,Excluded from synthetic model; not tax advice,2026-03-19T12:00:00Z,true,invoices:00045,Finance,2026-09-29T23:00:00Z
+SYN-IV-0075,SYN-SO-0075,2026-05-20,2026-08-18,346275,0,346275,Excluded from synthetic model; not tax advice,2026-05-20T12:00:00Z,true,invoices:00075,Finance,2026-09-29T23:00:00Z
+SYN-IV-0018,SYN-SO-0018,2026-08-21,2026-10-05,"PKR 3,873,150.00",0,3873150,Excluded from synthetic model; not tax advice,2026-08-21T12:00:00Z,true,invoices:00018,Finance,2026-09-29T23:00:00Z
+SYN-IV-0001,SYN-SO-0001,2026-06-01,2026-07-01,29389500,0,29389500,Excluded from synthetic model; not tax advice,2026-06-01T12:00:00Z,true,invoices:DUP:00000,Finance,2026-09-29T23:00:00Z
+SYN-IV-0006,SYN-SO-0006,2026-09-06,2026-10-21,"PKR 21,558,150.00",0,21558150,Excluded from synthetic model; not tax advice,2026-09-06T12:00:00Z,true,invoices:00006,Finance,2026-09-29T23:00:00Z
+SYN-IV-0068,SYN-SO-0068,18/05/2026,2026-08-16,12532050,0,12532050,Excluded from synthetic model; not tax advice,2026-05-18T12:00:00Z,true,invoices:00068,Finance,2026-09-29T23:00:00Z
+SYN-IV-0010,SYN-SO-0010,2026-03-19,2026-05-03,13741650,0,13741650,Excluded from synthetic model; not tax advice,2026-03-19T12:00:00Z,true,invoices:00010,Finance,2026-09-29T23:00:00Z
+SYN-IV-0022,SYN-SO-0022,2026-05-13,2026-08-11,15079500,0,15079500,Excluded from synthetic model; not tax advice,2026-05-13T12:00:00Z,true,invoices:00022,Finance,2026-09-29T23:00:00Z
+SYN-IV-0034,SYN-SO-0034,2026-07-04,2026-09-02,28370250,0,28370250,Excluded from synthetic model; not tax advice,2026-07-04T12:00:00Z,true,invoices:00034,Finance,2026-09-29T23:00:00Z
+SYN-IV-0035,SYN-SO-0035,07/05/2026,2026-07-06,5322375,0,5322375,Excluded from synthetic model; not tax advice,2026-05-07T12:00:00Z,true,invoices:00035,Finance,2026-09-29T23:00:00Z
+SYN-IV-0046,SYN-SO-0046,27/05/2026,2026-07-11,12295800,0,12295800,Excluded from synthetic model; not tax advice,2026-05-27T12:00:00Z,true,invoices:00046,Finance,2026-09-29T23:00:00Z
+SYN-IV-0011,SYN-SO-0011,2026-04-10,2026-05-25,8114850,0,8114850,Excluded from synthetic model; not tax advice,2026-04-10T12:00:00Z,true,invoices:00011,Finance,2026-09-29T23:00:00Z
+SYN-IV-0057,SYN-SO-0057,28/07/2026,2026-08-27,11988000,0,11988000,Excluded from synthetic model; not tax advice,2026-07-28T12:00:00Z,true,invoices:00057,Finance,2026-09-29T23:00:00Z
+SYN-IV-0023,SYN-SO-0023,2026-06-30,2026-09-28,5258250,0,5258250,Excluded from synthetic model; not tax advice,2026-06-30T12:00:00Z,true,invoices:00023,Finance,2026-09-29T23:00:00Z
+SYN-IV-0025,SYN-SO-0025,2026-08-16,2026-10-15,15844950,0,15844950,Excluded from synthetic model; not tax advice,2026-08-16T12:00:00Z,true,invoices:00025,Finance,2026-09-29T23:00:00Z
+SYN-IV-0060,SYN-SO-0060,2026-04-24,2026-05-24,5636925,0,5636925,Excluded from synthetic model; not tax advice,2026-04-24T12:00:00Z,true,invoices:00060,Finance,2026-09-29T23:00:00Z
+SYN-IV-0058,SYN-SO-0058,2026-06-07,2026-09-05,16885800,0,16885800,Excluded from synthetic model; not tax advice,2026-06-07T12:00:00Z,true,invoices:00058,Finance,2026-09-29T23:00:00Z
+SYN-IV-0008,SYN-SO-0008,2026-08-17,2026-11-15,17583075,0,17583075,Excluded from synthetic model; not tax advice,2026-08-17T12:00:00Z,true,invoices:00008,Finance,2026-09-29T23:00:00Z
+SYN-IV-0053,SYN-SO-0053,2026-09-09,2026-11-08,15592500,0,15592500,Excluded from synthetic model; not tax advice,2026-09-09T12:00:00Z,true,invoices:00053,Finance,2026-09-29T23:00:00Z

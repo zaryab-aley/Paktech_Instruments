@@ -1,0 +1,14 @@
+﻿supplier_id,supplier_name,country,currency,lead_time_days,email,updated_at,is_synthetic,_source_row_id,_source_system,_extract_at
+SYN-SU-0011,Eastbridge Laboratory Systems,Pakistan,PKR,33,sales.11@example.org,2026-01-01T12:00:00Z,true,suppliers:00011,Operations,2026-09-29T23:00:00Z
+SYN-SU-0012,Riverview Laboratory Systems,Turkey,PKR,74,sales.12@example.org,2026-01-01T12:00:00Z,true,suppliers:00012,Operations,2026-09-29T23:00:00Z
+SYN-SU-0001,Crescent Laboratory Systems,USA,PKR,29,sales.1@example.org,2026-01-01T12:00:00Z,true,suppliers:DUP:00000,Operations,2026-09-29T23:00:00Z
+SYN-SU-0007,Indus Valley Laboratory Systems,Spain,PKR,25,sales.7@example.org,2026-01-01T12:00:00Z,true,suppliers:00007,Operations,2026-09-29T23:00:00Z
+SYN-SU-0009,Summit Laboratory Systems,Pakistan,PKR,32,sales.9@example.org,2026-01-01T12:00:00Z,YES,suppliers:00009,Operations,2026-09-29T23:00:00Z
+SYN-SU-0006,Alpine Laboratory Systems,Spain,PKR,56,sales.6@example.org,2026-01-01T12:00:00Z,true,suppliers:00006,Operations,2026-09-29T23:00:00Z
+SYN-SU-0001,Crescent Laboratory Systems,USA,PKR,29,sales.1@example.org,2026-01-01T12:00:00Z,true,suppliers:00001,Operations,2026-09-29T23:00:00Z
+SYN-SU-0008,Coastal Laboratory Systems,UK,PKR,34,sales.8example.org,2026-01-01T12:00:00Z,true,suppliers:00008,Operations,2026-09-29T23:00:00Z
+SYN-SU-0003,  Meridian Laboratory Systems  ,UK,PKR,35,sales.3@example.org,2026-01-01T12:00:00Z,true,suppliers:00003,Operations,2026-09-29T23:00:00Z
+SYN-SU-0010,Northgate Laboratory Systems,USA,PKR,36,sales.10@example.org,2026-01-01T12:00:00Z,true,suppliers:00010,Operations,2026-09-29T23:00:00Z
+SYN-SU-0004,Frontier Laboratory Systems,Spain,PKR,17,sales.4@example.org,2026-01-01T12:00:00Z,true,suppliers:00004,Operations,2026-09-29T23:00:00Z
+SYN-SU-0005,Beacon Laboratory Systems,Germany,PKR,53,sales.5@example.org,2026-01-01T12:00:00Z,true,suppliers:00005,Operations,2026-09-29T23:00:00Z
+SYN-SU-0002,Horizon Laboratory Systems,Turkey,PKR,47, SALES.2@EXAMPLE.ORG ,2026-01-01T12:00:00Z,true,suppliers:00002,Operations,2026-09-29T23:00:00Z
