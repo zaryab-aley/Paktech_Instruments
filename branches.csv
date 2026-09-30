@@ -1,7 +1,0 @@
-﻿branch_id,branch_name,city,office_type,is_synthetic,_source_row_id,_source_system,_extract_at
-SYN-BR-0004,Peshawar Office,PEW,Branch,true,branches:00004,Operations,2026-09-29T23:00:00Z
-SYN-BR-0002,Lahore Office,Lahore,Branch,true,branches:00002,Operations,2026-09-29T23:00:00Z
-SYN-BR-0005,Quetta Office,Quetta,Branch,true,branches:00005,Operations,2026-09-29T23:00:00Z
-SYN-BR-0003,Islamabad Office,Islamabad,Branch,true,branches:00003,Operations,2026-09-29T23:00:00Z
-SYN-BR-0001,Karachi Office,Karachi,Head office,true,branches:DUP:00000,Operations,2026-09-29T23:00:00Z
-SYN-BR-0001,Karachi Office,Karachi,Head office,true,branches:00001,Operations,2026-09-29T23:00:00Z
