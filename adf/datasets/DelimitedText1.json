@@ -1,0 +1,22 @@
+{
+  "name": "DelimitedText1",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "HttpServer1",
+      "type": "LinkedServiceReference"
+    },
+    "annotations": [],
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "HttpServerLocation",
+        "relativeUrl": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/branches.csv"
+      },
+      "columnDelimiter": ",",
+      "escapeChar": "\\",
+      "firstRowAsHeader": true,
+      "quoteChar": "\""
+    },
+    "schema": []
+  }
+}

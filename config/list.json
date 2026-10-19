@@ -1,0 +1,112 @@
+[
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/branches.csv",
+    "directory_name": "branches",
+    "file_name": "branches.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/customers.csv",
+    "directory_name": "customers",
+    "file_name": "customers.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/employees.csv",
+    "directory_name": "employees",
+    "file_name": "employees.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/fx_rates.csv",
+    "directory_name": "fx_rates",
+    "file_name": "fx_rates.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/goods_receipts.csv",
+    "directory_name": "goods_receipts",
+    "file_name": "goods_receipts.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/import_shipments.csv",
+    "directory_name": "import_shipments",
+    "file_name": "import_shipments.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/installations.csv",
+    "directory_name": "installations",
+    "file_name": "installations.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/installed_assets.csv",
+    "directory_name": "installed_assets",
+    "file_name": "installed_assets.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/invoices.csv",
+    "directory_name": "invoices",
+    "file_name": "invoices.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/opportunities.csv",
+    "directory_name": "opportunities",
+    "file_name": "opportunities.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/payments.csv",
+    "directory_name": "payments",
+    "file_name": "payments.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/purchase_order_lines.csv",
+    "directory_name": "purchase_order_lines",
+    "file_name": "purchase_order_lines.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/purchase_orders.csv",
+    "directory_name": "purchase_orders",
+    "file_name": "purchase_orders.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/quotations.csv",
+    "directory_name": "quotations",
+    "file_name": "quotations.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/sales_order_lines.csv",
+    "directory_name": "sales_order_lines",
+    "file_name": "sales_order_lines.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/sales_orders.csv",
+    "directory_name": "sales_orders",
+    "file_name": "sales_orders.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/service_tickets.csv",
+    "directory_name": "service_tickets",
+    "file_name": "service_tickets.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/suppliers.csv",
+    "directory_name": "suppliers",
+    "file_name": "suppliers.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/training_sessions.csv",
+    "directory_name": "training_sessions",
+    "file_name": "training_sessions.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/products.csv",
+    "directory_name": "products",
+    "file_name": "products.csv"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_json/training_attendance.jsonl",
+    "directory_name": "training_attendance",
+    "file_name": "training_attendance.jsonl"
+  },
+  {
+    "relative_URL": "zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/customers_new.csv",
+    "directory_name": "customers",
+    "file_name": "customers_new.csv"
+  }
+]

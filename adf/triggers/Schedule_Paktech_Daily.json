@@ -1,0 +1,26 @@
+{
+  "name": "Schedule_Paktech_Daily",
+  "properties": {
+    "annotations": [],
+    "runtimeState": "Started",
+    "pipelines": [
+      {
+        "pipelineReference": {
+          "referenceName": "Main_Pipeline",
+          "type": "PipelineReference"
+        },
+        "parameters": {}
+      }
+    ],
+    "type": "ScheduleTrigger",
+    "typeProperties": {
+      "recurrence": {
+        "frequency": "Day",
+        "interval": 1,
+        "startTime": "2026-10-20T09:00:00",
+        "timeZone": "Pakistan Standard Time",
+        "schedule": {}
+      }
+    }
+  }
+}

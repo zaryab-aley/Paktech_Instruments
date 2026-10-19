@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "JSON parses",
+    "Python syntax",
+    "Notebook code cells unchanged",
+    "No notebook outputs",
+    "Markdown links resolve",
+    "No recognised plaintext secret pattern found in text assets",
+    "SQL literal/comment balance",
+    "19 Gold builds/validation projections",
+    "Main/recovery SQL equality",
+    "PBIX copied byte-for-byte",
+    "All ARM members preserved byte-for-byte",
+    "22 source files match repository blob hashes"
+  ],
+  "limitations": [
+    "No new Azure deployment executed",
+    "No Spark runtime execution during packaging",
+    "No native Power BI visual rendering",
+    "New bootstrap helper only statically checked"
+  ],
+  "source_commit": "1d73d02a410f347e197c122a8f5a148c05730783"
+}

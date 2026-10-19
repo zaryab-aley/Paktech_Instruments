@@ -1,0 +1,42 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "type": "string",
+            "metadata": "Data Factory name",
+            "defaultValue": "PakTechDataFactory"
+        },
+        "dataFactory_location": {
+            "type": "string",
+            "defaultValue": "westus2"
+        },
+        "dataFactory_identity_type": {
+            "type": "string",
+            "defaultValue": "SystemAssigned"
+        }
+    },
+    "variables": {
+        "factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+    },
+    "resources": [
+        {
+            "name": "[parameters('factoryName')]",
+            "type": "Microsoft.DataFactory/factories",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "trustModeClaimForMi": {
+                    "value": "Disabled",
+                    "editable": true
+                }
+            },
+            "dependsOn": [],
+            "location": "[parameters('dataFactory_location')]",
+            "identity": {
+                "type": "[parameters('dataFactory_identity_type')]",
+                "principalId": "e2a49957-1c51-4dbc-b8e1-a6081e330add",
+                "tenantId": "0a34a47d-6d07-4178-b6ea-9a667996d331"
+            }
+        }
+    ]
+}

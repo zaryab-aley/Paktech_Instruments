@@ -1,0 +1,78 @@
+[
+  {
+    "table": "dim_branches",
+    "rows": 5
+  },
+  {
+    "table": "dim_customers",
+    "rows": 65
+  },
+  {
+    "table": "dim_dates",
+    "rows": 730
+  },
+  {
+    "table": "dim_employees",
+    "rows": 15
+  },
+  {
+    "table": "dim_installed_assets",
+    "rows": 333
+  },
+  {
+    "table": "dim_products",
+    "rows": 48
+  },
+  {
+    "table": "dim_suppliers",
+    "rows": 12
+  },
+  {
+    "table": "fact_goods_receipts",
+    "rows": 170
+  },
+  {
+    "table": "fact_import_shipments",
+    "rows": 215
+  },
+  {
+    "table": "fact_installations",
+    "rows": 333
+  },
+  {
+    "table": "fact_invoices",
+    "rows": 80
+  },
+  {
+    "table": "fact_opportunities",
+    "rows": 180
+  },
+  {
+    "table": "fact_payments",
+    "rows": 58
+  },
+  {
+    "table": "fact_purchases",
+    "rows": 215
+  },
+  {
+    "table": "fact_quotations",
+    "rows": 180
+  },
+  {
+    "table": "fact_sales",
+    "rows": 215
+  },
+  {
+    "table": "fact_service_tickets",
+    "rows": 87
+  },
+  {
+    "table": "fact_training_attendance",
+    "rows": 739
+  },
+  {
+    "table": "fact_training_sessions",
+    "rows": 80
+  }
+]

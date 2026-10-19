@@ -1,0 +1,13 @@
+# Local credentials and tooling
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.azure/
+.databrickscfg
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# Keep the supplied example ARM parameter files; never insert secret values.
+*.local.json

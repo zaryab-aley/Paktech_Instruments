@@ -1,0 +1,122 @@
+[
+  {
+    "FromTableName": "fact_sales",
+    "FromColumnName": "branch_id",
+    "ToTableName": "dim_branches",
+    "ToColumnName": "branch_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 8,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_sales",
+    "FromColumnName": "customer_id",
+    "ToTableName": "dim_customers",
+    "ToColumnName": "customer_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 50,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_sales",
+    "FromColumnName": "product_id",
+    "ToTableName": "dim_products",
+    "ToColumnName": "product_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 51,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_sales",
+    "FromColumnName": "order_date",
+    "ToTableName": "dim_dates",
+    "ToColumnName": "full_date",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 87,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_payments",
+    "FromColumnName": "invoice_id",
+    "ToTableName": "fact_invoices",
+    "ToColumnName": "invoice_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 61,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_invoices",
+    "FromColumnName": "OrderCustomers.customer_id",
+    "ToTableName": "dim_customers",
+    "ToColumnName": "customer_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 46,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_purchases",
+    "FromColumnName": "supplier_id",
+    "ToTableName": "dim_suppliers",
+    "ToColumnName": "supplier_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 15,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_goods_receipts",
+    "FromColumnName": "purchase_line_id",
+    "ToTableName": "fact_purchases",
+    "ToColumnName": "purchase_line_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 173,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_training_sessions",
+    "FromColumnName": "session_date",
+    "ToTableName": "dim_dates",
+    "ToColumnName": "full_date",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 72,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  },
+  {
+    "FromTableName": "fact_training_attendance",
+    "FromColumnName": "training_id",
+    "ToTableName": "fact_training_sessions",
+    "ToColumnName": "training_id",
+    "IsActive": 1,
+    "Cardinality": "M:1",
+    "CrossFilteringBehavior": "Single",
+    "FromKeyCount": 83,
+    "ToKeyCount": null,
+    "RelyOnReferentialIntegrity": 0
+  }
+]

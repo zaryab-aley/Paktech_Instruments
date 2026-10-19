@@ -1,0 +1,82 @@
+[
+  {
+    "TableName": "fact_training_sessions",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_training_sessions = paktech{[Schema=\"dbo\",Item=\"fact_training_sessions\"]}[Data]\nin\n    dbo_fact_training_sessions"
+  },
+  {
+    "TableName": "fact_training_attendance",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_training_attendance = paktech{[Schema=\"dbo\",Item=\"fact_training_attendance\"]}[Data]\nin\n    dbo_fact_training_attendance"
+  },
+  {
+    "TableName": "fact_sales",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_sales = paktech{[Schema=\"dbo\",Item=\"fact_sales\"]}[Data]\nin\n    dbo_fact_sales"
+  },
+  {
+    "TableName": "fact_purchases",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_purchases = paktech{[Schema=\"dbo\",Item=\"fact_purchases\"]}[Data],\n    #\"Removed Duplicates\" = Table.Distinct(dbo_fact_purchases, {\"purchase_line_id\"})\nin\n    #\"Removed Duplicates\""
+  },
+  {
+    "TableName": "fact_service_tickets",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_service_tickets = paktech{[Schema=\"dbo\",Item=\"fact_service_tickets\"]}[Data],\n    #\"Changed Type\" = Table.TransformColumnTypes(dbo_fact_service_tickets,{{\"closed_date\", type date}}),\n    #\"Changed Type with Locale\" = Table.TransformColumnTypes(#\"Changed Type\", {{\"opened_date\", type text}}, \"en-GB\"),\n    #\"Changed Type with Locale1\" = Table.TransformColumnTypes(#\"Changed Type with Locale\", {{\"closed_date\", type text}}, \"en-GB\"),\n    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Changed Type with Locale1\",{{\"opened_date\", type date}, {\"closed_date\", type date}}),\n    #\"Changed Type with Locale2\" = Table.TransformColumnTypes(#\"Changed Type1\", {{\"opened_date\", type date}}, \"en-GB\"),\n    #\"Changed Type with Locale3\" = Table.TransformColumnTypes(#\"Changed Type with Locale2\", {{\"closed_date\", type date}}, \"en-GB\")\nin\n    #\"Changed Type with Locale3\""
+  },
+  {
+    "TableName": "fact_payments",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_payments = paktech{[Schema=\"dbo\",Item=\"fact_payments\"]}[Data]\nin\n    dbo_fact_payments"
+  },
+  {
+    "TableName": "fact_opportunities",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_opportunities = paktech{[Schema=\"dbo\",Item=\"fact_opportunities\"]}[Data]\nin\n    dbo_fact_opportunities"
+  },
+  {
+    "TableName": "fact_invoices",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_invoices = paktech{[Schema=\"dbo\",Item=\"fact_invoices\"]}[Data],\n    #\"Removed Duplicates\" = Table.Distinct(dbo_fact_invoices, {\"invoice_id\"}),\n    #\"Merged Queries\" = Table.NestedJoin(#\"Removed Duplicates\", {\"order_id\"}, OrderCustomers, {\"order_id\"}, \"OrderCustomers\", JoinKind.LeftOuter),\n    #\"Expanded OrderCustomers1\" = Table.ExpandTableColumn(#\"Merged Queries\", \"OrderCustomers\", {\"customer_id\"}, {\"OrderCustomers.customer_id\"}),\n    #\"Changed Type with Locale\" = Table.TransformColumnTypes(#\"Expanded OrderCustomers1\", {{\"due_date\", type date}}, \"en-GB\"),\n    #\"Replaced Errors\" = Table.ReplaceErrorValues(#\"Changed Type with Locale\", {{\"due_date\", null}}),\n    #\"Changed Type with Locale1\" = Table.TransformColumnTypes(#\"Replaced Errors\", {{\"invoice_date\", type date}}, \"en-GB\")\nin\n    #\"Changed Type with Locale1\""
+  },
+  {
+    "TableName": "fact_installations",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_installations = paktech{[Schema=\"dbo\",Item=\"fact_installations\"]}[Data]\nin\n    dbo_fact_installations"
+  },
+  {
+    "TableName": "fact_goods_receipts",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_goods_receipts = paktech{[Schema=\"dbo\",Item=\"fact_goods_receipts\"]}[Data]\nin\n    dbo_fact_goods_receipts"
+  },
+  {
+    "TableName": "dim_suppliers",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_suppliers = paktech{[Schema=\"dbo\",Item=\"dim_suppliers\"]}[Data]\nin\n    dbo_dim_suppliers"
+  },
+  {
+    "TableName": "dim_products",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_products = paktech{[Schema=\"dbo\",Item=\"dim_products\"]}[Data]\nin\n    dbo_dim_products"
+  },
+  {
+    "TableName": "dim_installed_assets",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_installed_assets = paktech{[Schema=\"dbo\",Item=\"dim_installed_assets\"]}[Data]\nin\n    dbo_dim_installed_assets"
+  },
+  {
+    "TableName": "dim_customers",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_customers = paktech{[Schema=\"dbo\",Item=\"dim_customers\"]}[Data]\nin\n    dbo_dim_customers"
+  },
+  {
+    "TableName": "fact_quotations",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_quotations = paktech{[Schema=\"dbo\",Item=\"fact_quotations\"]}[Data]\nin\n    dbo_fact_quotations"
+  },
+  {
+    "TableName": "fact_import_shipments",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_fact_import_shipments = paktech{[Schema=\"dbo\",Item=\"fact_import_shipments\"]}[Data]\nin\n    dbo_fact_import_shipments"
+  },
+  {
+    "TableName": "dim_employees",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_employees = paktech{[Schema=\"dbo\",Item=\"dim_employees\"]}[Data]\nin\n    dbo_dim_employees"
+  },
+  {
+    "TableName": "dim_dates",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_dates = paktech{[Schema=\"dbo\",Item=\"dim_dates\"]}[Data]\nin\n    dbo_dim_dates"
+  },
+  {
+    "TableName": "dim_branches",
+    "Expression": "let\n    Source = Sql.Databases(\"synapseworkspacepaktech-ondemand.sql.azuresynapse.net\"),\n    paktech = Source{[Name=\"paktech\"]}[Data],\n    dbo_dim_branches = paktech{[Schema=\"dbo\",Item=\"dim_branches\"]}[Data],\n    #\"Removed Duplicates\" = Table.Distinct(dbo_dim_branches, {\"branch_id\"})\nin\n    #\"Removed Duplicates\""
+  },
+  {
+    "TableName": "OrderCustomers",
+    "Expression": "let\n    Source = fact_sales,\n    #\"Removed Other Columns\" = Table.SelectColumns(Source,{\"order_id\", \"customer_id\"}),\n    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\")\nin\n    #\"Removed Duplicates\""
+  }
+]

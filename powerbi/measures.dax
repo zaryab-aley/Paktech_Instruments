@@ -1,0 +1,126 @@
+-- Extracted from the supplied PBIX; each definition is separate.
+
+-- Home table: fact_sales
+Net_Order_Value = SUM(fact_sales[line_net_pkr])
+
+-- Home table: dim_dates
+Previous Month Order Value = CALCULATE(
+    [Net_Order_Value],
+    DATEADD(dim_dates[full_date], -1, MONTH)
+)
+
+-- Home table: dim_dates
+Order Value MoM % = DIVIDE(
+    [Net_Order_Value] - [Previous Month Order Value],
+    ABS([Previous Month Order Value])
+)
+
+-- Home table: fact_sales
+Units Ordered = SUM(fact_sales[quantity])
+
+-- Home table: fact_sales
+Customer Share % = DIVIDE(
+    [Net_Order_Value],
+    CALCULATE(
+        [Net_Order_Value],
+        REMOVEFILTERS(dim_customers)
+    )
+)
+
+-- Home table: fact_sales
+Total Orders = DISTINCTCOUNT(fact_sales[order_id])
+
+-- Home table: fact_sales
+Average Order Value = DIVIDE([Net_Order_Value], [Total Orders])
+
+-- Home table: fact_invoices
+Total Invoiced = SUM(fact_invoices[gross_amount_pkr])
+
+-- Home table: fact_payments
+Total Collected = SUM(fact_payments[amount_pkr])
+
+-- Home table: fact_invoices
+Outstanding Balance = SUMX(
+    fact_invoices,
+    VAR InvoiceAmount = fact_invoices[gross_amount_pkr]
+    VAR PaidAmount =
+        COALESCE(
+            CALCULATE(SUM(fact_payments[amount_pkr])),
+            0
+        )
+    RETURN
+        MAX(InvoiceAmount - PaidAmount, 0)
+)
+
+-- Home table: fact_invoices
+Overdue Balance = CALCULATE(
+    [Outstanding Balance],
+    fact_invoices[Days Overdue] > 0
+)
+
+-- Home table: fact_invoices
+Average Days To Full Payment = AVERAGE(fact_invoices[Days To Full Payment])
+
+-- Home table: fact_purchases
+Purchase Value = SUMX(
+    fact_purchases,
+    fact_purchases[quantity]
+        * fact_purchases[unit_landed_cost_pkr]
+)
+
+-- Home table: fact_goods_receipts
+Overdue Quantity = SUMX(
+    fact_purchases,
+    VAR ExpectedDate = fact_purchases[expected_receipt_date]
+    VAR OrderedQty = fact_purchases[quantity]
+    VAR ReceivedQty =
+        COALESCE(
+            CALCULATE(
+                SUM(fact_goods_receipts[quantity_received])
+            ),
+            0
+        )
+    RETURN
+        IF(
+            NOT ISBLANK(ExpectedDate)
+                && ExpectedDate < TODAY(),
+            MAX(OrderedQty - ReceivedQty, 0),
+            0
+        )
+)
+
+-- Home table: fact_service_tickets
+Average Resolution Days = AVERAGE(fact_service_tickets[Resolution Days])
+
+-- Home table: fact_service_tickets
+Open Tickets = COUNTROWS(
+    FILTER(
+        fact_service_tickets,
+        ISBLANK(fact_service_tickets[closed_date])
+    )
+)
+
+-- Home table: fact_service_tickets
+Resolution Check = AVERAGEX(
+    FILTER(
+        fact_service_tickets,
+        NOT ISBLANK(fact_service_tickets[opened_date])
+            && NOT ISBLANK(fact_service_tickets[closed_date])
+            && fact_service_tickets[closed_date]
+                >= fact_service_tickets[opened_date]
+    ),
+    DATEDIFF(
+        fact_service_tickets[opened_date],
+        fact_service_tickets[closed_date],
+        DAY
+    )
+)
+
+-- Home table: fact_training_sessions
+Training Sessions = DISTINCTCOUNT(fact_training_sessions[training_id])
+
+-- Home table: fact_training_attendance
+Attendance Count = COUNTROWS(fact_training_attendance)
+
+-- Home table: fact_training_attendance
+Average Feedback = AVERAGE(fact_training_attendance[feedback_score])
