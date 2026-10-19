@@ -1,0 +1,14 @@
+{
+  "name": "ls_synapse_serverless",
+  "properties": {
+    "annotations": [],
+    "type": "AzureSqlDatabase",
+    "typeProperties": {
+      "server": "[parameters('ls_synapse_serverless_properties_typeProperties_server')]",
+      "database": "[parameters('ls_synapse_serverless_properties_typeProperties_database')]",
+      "encrypt": "mandatory",
+      "trustServerCertificate": false,
+      "authenticationType": "SystemAssignedManagedIdentity"
+    }
+  }
+}

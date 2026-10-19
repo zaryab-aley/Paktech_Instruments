@@ -1,0 +1,12 @@
+{
+  "name": "ls_databricks",
+  "properties": {
+    "annotations": [],
+    "type": "AzureDatabricks",
+    "typeProperties": {
+      "domain": "https://adb-7405613607431173.13.azuredatabricks.net",
+      "authentication": "MSI",
+      "workspaceResourceId": "/subscriptions/75205778-ed82-426b-b195-f282b57280ca/resourceGroups/ResourceGroup/providers/Microsoft.Databricks/workspaces/paktechworkspace"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "repository_base_commit": "1d73d02a410f347e197c122a8f5a148c05730783",
+  "inputs": [
+    {
+      "filename": "paktechworkspace.ipynb",
+      "sha256": "1a4528cbce5e4c92c17e3d8ad90ac64cc0b6dfc1624830d6ab9f3ab5eb0083ec"
+    },
+    {
+      "filename": "arm_template.zip",
+      "sha256": "1698602d035f4faf08fb963fb7b75ce1fc9c535bfbc70b90cee995be016a1220"
+    },
+    {
+      "filename": "list(2).json",
+      "sha256": "8e2d095352b3838d6fdaef0c3199acdfa8f97f120a4ca723a0523fbeb3ba9a52"
+    },
+    {
+      "filename": "Paktech_Dashboard(2).pbix",
+      "sha256": "eaa676478c5e05edcebdbbcb8921410b7f5581066b155fe353dda994fc615bf3"
+    }
+  ],
+  "notes": [
+    "Raw data bytes match GitHub base tree.",
+    "Notebook code cells preserved, explanatory markdown added, execution metadata cleared.",
+    "ARM exports and extracted resource properties preserved.",
+    "Gold runtime extracted from the uploaded ARM, not inferred from an earlier draft.",
+    "SQL setup/bootstrap and documentation added for handover; bootstrap not cloud-executed.",
+    "PBIX copied unchanged; text companions extracted from its model."
+  ]
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "TableName": "DateTableTemplate_6048006c-c580-4daa-82ef-9f3d7908ba38",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "DateTableTemplate_6048006c-c580-4daa-82ef-9f3d7908ba38",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "DateTableTemplate_6048006c-c580-4daa-82ef-9f3d7908ba38",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "DateTableTemplate_6048006c-c580-4daa-82ef-9f3d7908ba38",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "DateTableTemplate_6048006c-c580-4daa-82ef-9f3d7908ba38",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "DateTableTemplate_6048006c-c580-4daa-82ef-9f3d7908ba38",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_16b6bae7-7488-4d5f-b8db-69dc261d0b52",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_16b6bae7-7488-4d5f-b8db-69dc261d0b52",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_16b6bae7-7488-4d5f-b8db-69dc261d0b52",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_16b6bae7-7488-4d5f-b8db-69dc261d0b52",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_16b6bae7-7488-4d5f-b8db-69dc261d0b52",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_16b6bae7-7488-4d5f-b8db-69dc261d0b52",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_76c0776f-167c-4a55-b52a-2f81a98b9c1b",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_76c0776f-167c-4a55-b52a-2f81a98b9c1b",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_76c0776f-167c-4a55-b52a-2f81a98b9c1b",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_76c0776f-167c-4a55-b52a-2f81a98b9c1b",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_76c0776f-167c-4a55-b52a-2f81a98b9c1b",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_76c0776f-167c-4a55-b52a-2f81a98b9c1b",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3d138727-25ba-4ad7-b7bc-2f8aa1af02ba",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3d138727-25ba-4ad7-b7bc-2f8aa1af02ba",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3d138727-25ba-4ad7-b7bc-2f8aa1af02ba",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_3d138727-25ba-4ad7-b7bc-2f8aa1af02ba",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_3d138727-25ba-4ad7-b7bc-2f8aa1af02ba",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_3d138727-25ba-4ad7-b7bc-2f8aa1af02ba",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a1aa630d-acbf-43c8-8994-3339fbf2e63f",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a1aa630d-acbf-43c8-8994-3339fbf2e63f",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a1aa630d-acbf-43c8-8994-3339fbf2e63f",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_a1aa630d-acbf-43c8-8994-3339fbf2e63f",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_a1aa630d-acbf-43c8-8994-3339fbf2e63f",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_a1aa630d-acbf-43c8-8994-3339fbf2e63f",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4d523fd9-6a11-477b-a739-b60731ff2570",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4d523fd9-6a11-477b-a739-b60731ff2570",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4d523fd9-6a11-477b-a739-b60731ff2570",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_4d523fd9-6a11-477b-a739-b60731ff2570",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_4d523fd9-6a11-477b-a739-b60731ff2570",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_4d523fd9-6a11-477b-a739-b60731ff2570",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_e68a3c38-020e-4aa0-aabd-87585711f039",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_e68a3c38-020e-4aa0-aabd-87585711f039",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_e68a3c38-020e-4aa0-aabd-87585711f039",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_e68a3c38-020e-4aa0-aabd-87585711f039",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_e68a3c38-020e-4aa0-aabd-87585711f039",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_e68a3c38-020e-4aa0-aabd-87585711f039",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5230acda-d03b-4a46-9722-0b4a0eb8934c",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5230acda-d03b-4a46-9722-0b4a0eb8934c",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5230acda-d03b-4a46-9722-0b4a0eb8934c",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_5230acda-d03b-4a46-9722-0b4a0eb8934c",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_5230acda-d03b-4a46-9722-0b4a0eb8934c",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_5230acda-d03b-4a46-9722-0b4a0eb8934c",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_c53538ed-7e22-467c-8a02-2ef84945d8ec",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_c53538ed-7e22-467c-8a02-2ef84945d8ec",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_c53538ed-7e22-467c-8a02-2ef84945d8ec",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_c53538ed-7e22-467c-8a02-2ef84945d8ec",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_c53538ed-7e22-467c-8a02-2ef84945d8ec",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_c53538ed-7e22-467c-8a02-2ef84945d8ec",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_0035a285-7ff9-493f-979b-ec6426ff8fbc",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_0035a285-7ff9-493f-979b-ec6426ff8fbc",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_0035a285-7ff9-493f-979b-ec6426ff8fbc",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_0035a285-7ff9-493f-979b-ec6426ff8fbc",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_0035a285-7ff9-493f-979b-ec6426ff8fbc",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_0035a285-7ff9-493f-979b-ec6426ff8fbc",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_66f97d50-4ada-4775-95b6-42d2db1fb8aa",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_66f97d50-4ada-4775-95b6-42d2db1fb8aa",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_66f97d50-4ada-4775-95b6-42d2db1fb8aa",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_66f97d50-4ada-4775-95b6-42d2db1fb8aa",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_66f97d50-4ada-4775-95b6-42d2db1fb8aa",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_66f97d50-4ada-4775-95b6-42d2db1fb8aa",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a744805c-0c1e-4870-ac91-55b4b7d2b750",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a744805c-0c1e-4870-ac91-55b4b7d2b750",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a744805c-0c1e-4870-ac91-55b4b7d2b750",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_a744805c-0c1e-4870-ac91-55b4b7d2b750",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_a744805c-0c1e-4870-ac91-55b4b7d2b750",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_a744805c-0c1e-4870-ac91-55b4b7d2b750",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_aa6d4044-e36d-4f26-8ecb-681a4b34c109",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_aa6d4044-e36d-4f26-8ecb-681a4b34c109",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_aa6d4044-e36d-4f26-8ecb-681a4b34c109",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_aa6d4044-e36d-4f26-8ecb-681a4b34c109",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_aa6d4044-e36d-4f26-8ecb-681a4b34c109",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_aa6d4044-e36d-4f26-8ecb-681a4b34c109",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_84b35c21-f896-433e-ab86-c3f1c9ffa786",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_84b35c21-f896-433e-ab86-c3f1c9ffa786",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_84b35c21-f896-433e-ab86-c3f1c9ffa786",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_84b35c21-f896-433e-ab86-c3f1c9ffa786",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_84b35c21-f896-433e-ab86-c3f1c9ffa786",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_84b35c21-f896-433e-ab86-c3f1c9ffa786",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_1fab567a-570e-4545-ac50-1efb0beb193d",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_1fab567a-570e-4545-ac50-1efb0beb193d",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_1fab567a-570e-4545-ac50-1efb0beb193d",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_1fab567a-570e-4545-ac50-1efb0beb193d",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_1fab567a-570e-4545-ac50-1efb0beb193d",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_1fab567a-570e-4545-ac50-1efb0beb193d",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_347e9459-0fb1-48c9-9165-649bb5c7c223",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_347e9459-0fb1-48c9-9165-649bb5c7c223",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_347e9459-0fb1-48c9-9165-649bb5c7c223",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_347e9459-0fb1-48c9-9165-649bb5c7c223",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_347e9459-0fb1-48c9-9165-649bb5c7c223",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_347e9459-0fb1-48c9-9165-649bb5c7c223",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_37f5902e-3d62-487c-848b-f17bde9d0daa",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_37f5902e-3d62-487c-848b-f17bde9d0daa",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_37f5902e-3d62-487c-848b-f17bde9d0daa",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_37f5902e-3d62-487c-848b-f17bde9d0daa",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_37f5902e-3d62-487c-848b-f17bde9d0daa",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_37f5902e-3d62-487c-848b-f17bde9d0daa",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "dim_dates",
+    "ColumnName": "Year_Month",
+    "Expression": "FORMAT(dim_dates[full_date], \"yyyy-MM\")"
+  },
+  {
+    "TableName": "fact_invoices",
+    "ColumnName": "Days Overdue",
+    "Expression": "\nVAR DueDate = fact_invoices[due_date]\nRETURN\n    IF(\n        ISBLANK(DueDate),\n        BLANK(),\n        MAX(0, DATEDIFF(DueDate, TODAY(), DAY))\n    )"
+  },
+  {
+    "TableName": "fact_invoices",
+    "ColumnName": "Ageing Bucket",
+    "Expression": "\nSWITCH(\n    TRUE(),\n    ISBLANK(fact_invoices[due_date]), \"Unknown due date\",\n    fact_invoices[Days Overdue] = 0, \"Not overdue\",\n    fact_invoices[Days Overdue] <= 30, \"1–30 days\",\n    fact_invoices[Days Overdue] <= 60, \"31–60 days\",\n    fact_invoices[Days Overdue] <= 90, \"61–90 days\",\n    \"91+ days\"\n)"
+  },
+  {
+    "TableName": "LocalDateTable_ad2de76c-b2ea-4b4e-a8f4-777081c7a578",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_ad2de76c-b2ea-4b4e-a8f4-777081c7a578",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_ad2de76c-b2ea-4b4e-a8f4-777081c7a578",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_ad2de76c-b2ea-4b4e-a8f4-777081c7a578",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_ad2de76c-b2ea-4b4e-a8f4-777081c7a578",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_ad2de76c-b2ea-4b4e-a8f4-777081c7a578",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "fact_invoices",
+    "ColumnName": "Fully Paid Date",
+    "Expression": "\nVAR InvoiceAmount = fact_invoices[gross_amount_pkr]\nVAR Payments = RELATEDTABLE(fact_payments)\nVAR PaymentDates =\n    DISTINCT(\n        SELECTCOLUMNS(\n            Payments,\n            \"PaidDate\", fact_payments[payment_date]\n        )\n    )\nRETURN\n    MINX(\n        FILTER(\n            PaymentDates,\n            VAR CurrentDate = [PaidDate]\n            VAR PaidSoFar =\n                SUMX(\n                    FILTER(\n                        Payments,\n                        fact_payments[payment_date] <= CurrentDate\n                    ),\n                    fact_payments[amount_pkr]\n                )\n            RETURN\n                NOT ISBLANK(CurrentDate)\n                    && InvoiceAmount > 0\n                    && PaidSoFar >= InvoiceAmount\n        ),\n        [PaidDate]\n    )"
+  },
+  {
+    "TableName": "LocalDateTable_55d94e47-c9eb-4c6c-953d-af0a30206439",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_55d94e47-c9eb-4c6c-953d-af0a30206439",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_55d94e47-c9eb-4c6c-953d-af0a30206439",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_55d94e47-c9eb-4c6c-953d-af0a30206439",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_55d94e47-c9eb-4c6c-953d-af0a30206439",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_55d94e47-c9eb-4c6c-953d-af0a30206439",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "fact_invoices",
+    "ColumnName": "Days To Full Payment",
+    "Expression": "\nIF(\n    NOT ISBLANK(fact_invoices[Fully Paid Date])\n        && NOT ISBLANK(fact_invoices[invoice_date]),\n    DATEDIFF(\n        fact_invoices[invoice_date],\n        fact_invoices[Fully Paid Date],\n        DAY\n    )\n)"
+  },
+  {
+    "TableName": "fact_service_tickets",
+    "ColumnName": "Resolution Days",
+    "Expression": "\nVAR OpenedDate = fact_service_tickets[opened_date]\nVAR ClosedDate = fact_service_tickets[closed_date]\nRETURN\n    IF(\n        NOT ISBLANK(OpenedDate)\n            && NOT ISBLANK(ClosedDate)\n            && ClosedDate >= OpenedDate,\n        DATEDIFF(OpenedDate, ClosedDate, DAY),\n        BLANK()\n    )"
+  },
+  {
+    "TableName": "LocalDateTable_89804069-8a91-49df-9910-2f87d3dba968",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_89804069-8a91-49df-9910-2f87d3dba968",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_89804069-8a91-49df-9910-2f87d3dba968",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_89804069-8a91-49df-9910-2f87d3dba968",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_89804069-8a91-49df-9910-2f87d3dba968",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_89804069-8a91-49df-9910-2f87d3dba968",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_04d3ee8a-1b39-4aad-b662-3bab1ce85ea2",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_04d3ee8a-1b39-4aad-b662-3bab1ce85ea2",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_04d3ee8a-1b39-4aad-b662-3bab1ce85ea2",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_04d3ee8a-1b39-4aad-b662-3bab1ce85ea2",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_04d3ee8a-1b39-4aad-b662-3bab1ce85ea2",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_04d3ee8a-1b39-4aad-b662-3bab1ce85ea2",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4010332a-ef92-4368-a541-19ead55bd09d",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4010332a-ef92-4368-a541-19ead55bd09d",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4010332a-ef92-4368-a541-19ead55bd09d",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_4010332a-ef92-4368-a541-19ead55bd09d",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_4010332a-ef92-4368-a541-19ead55bd09d",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_4010332a-ef92-4368-a541-19ead55bd09d",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_d5c5e06f-0a9d-4bf4-8c83-a420926f46d2",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_d5c5e06f-0a9d-4bf4-8c83-a420926f46d2",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_d5c5e06f-0a9d-4bf4-8c83-a420926f46d2",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_d5c5e06f-0a9d-4bf4-8c83-a420926f46d2",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_d5c5e06f-0a9d-4bf4-8c83-a420926f46d2",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_d5c5e06f-0a9d-4bf4-8c83-a420926f46d2",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  }
+]

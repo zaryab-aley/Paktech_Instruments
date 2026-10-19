@@ -1,0 +1,6 @@
+let targetRunId = "PASTE_PIPELINE_RUN_ID";
+ADFActivityRun
+| where TimeGenerated > ago(24h)
+| where PipelineRunId == targetRunId
+| project PipelineName, PipelineRunId, ActivityName, ActivityType, Status, Start, End, ActivityRunId
+| order by Start asc

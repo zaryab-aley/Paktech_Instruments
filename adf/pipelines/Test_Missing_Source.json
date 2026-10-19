@@ -1,0 +1,101 @@
+{
+  "name": "Test_Missing_Source",
+  "properties": {
+    "activities": [
+      {
+        "name": "ForEach1",
+        "type": "ForEach",
+        "dependsOn": [],
+        "userProperties": [],
+        "typeProperties": {
+          "items": {
+            "value": "@json('[{\"relative_URL\":\"zaryab-aley/Paktech_Instruments/refs/heads/main/raw_csv/customers_new.csv\",\"directory_name\":\"test_missing_source\",\"file_name\":\"customers_test.csv\"}]')",
+            "type": "Expression"
+          },
+          "isSequential": true,
+          "activities": [
+            {
+              "name": "Copy data2",
+              "type": "Copy",
+              "dependsOn": [],
+              "policy": {
+                "timeout": "0.12:00:00",
+                "retry": 2,
+                "retryIntervalInSeconds": 60,
+                "secureOutput": false,
+                "secureInput": false
+              },
+              "userProperties": [],
+              "typeProperties": {
+                "source": {
+                  "type": "DelimitedTextSource",
+                  "storeSettings": {
+                    "type": "HttpReadSettings",
+                    "requestMethod": "GET",
+                    "requestTimeout": ""
+                  },
+                  "formatSettings": {
+                    "type": "DelimitedTextReadSettings"
+                  }
+                },
+                "sink": {
+                  "type": "DelimitedTextSink",
+                  "storeSettings": {
+                    "type": "AzureBlobFSWriteSettings",
+                    "copyBehavior": "PreserveHierarchy"
+                  },
+                  "formatSettings": {
+                    "type": "DelimitedTextWriteSettings",
+                    "quoteAllText": true,
+                    "fileExtension": ".txt"
+                  }
+                },
+                "enableStaging": false,
+                "translator": {
+                  "type": "TabularTranslator",
+                  "typeConversion": true,
+                  "typeConversionSettings": {
+                    "allowDataTruncation": true,
+                    "treatBooleanAsNumber": false
+                  }
+                }
+              },
+              "inputs": [
+                {
+                  "referenceName": "DelimitedText3",
+                  "type": "DatasetReference",
+                  "parameters": {
+                    "relative_url": {
+                      "value": "@item().relative_url",
+                      "type": "Expression"
+                    }
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "referenceName": "DelimitedText4",
+                  "type": "DatasetReference",
+                  "parameters": {
+                    "directory_name": {
+                      "value": "@item().directory_name",
+                      "type": "Expression"
+                    },
+                    "file_name": {
+                      "value": "@item().file_name",
+                      "type": "Expression"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "policy": {
+      "elapsedTimeMetric": {}
+    },
+    "annotations": []
+  }
+}

@@ -1,0 +1,5 @@
+ADFPipelineRun
+| where TimeGenerated > ago(24h)
+| summarize arg_max(TimeGenerated, *) by RunId
+| project PipelineName, RunId, Status, Start, End, ErrorMessage
+| order by Start desc
