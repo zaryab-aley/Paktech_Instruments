@@ -82,4 +82,4 @@ Other boundaries: small synthetic datasets; notebook source-ID rules and record-
 
 ## Evidence and reproducibility
 
-The attached artifacts are preserved exports, not a fresh execution in another Azure subscription. Local checks validated JSON, Python syntax, manifest paths, notebook code preservation and PBIX model contents. Cloud exercises were completed in the project workspace and reported in the build session. Screenshots of live Azure runs and report pages can be added under `docs/images/`; none have been fabricated.
+The attached artifacts are preserved exports, not a fresh execution in another Azure subscription. Local checks validated JSON, Python syntax, manifest paths, notebook code preservation and PBIX model contents. Cloud exercises were completed in the project workspace and reported in the build session.
